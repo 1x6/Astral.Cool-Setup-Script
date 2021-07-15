@@ -1,18 +1,21 @@
-# Higure.wtf setup
-This is a setup script for https://github.com/Higure-wtf/ . It's based on https://setup.elixr.host and config values are explained in there.
-## Warning
-I didn't test this, so if you find any bugs, report them in the *Issues* tab or make a pull request with the fix. Thanks!
+# Astral.Cool Setup Script
 
-Also, another notice is that this script uses your Cloudflare email as the email for lets encrypt and also the admin account.
-## Running
-I recommend following [this guide](https://setup.elixr.host/cloudflare-setup/untitled) **before** running this script, but it will ask to do it anyway. 
+A simple Astral.Cool setup script for your skid image hosting.
 
-You can download the script and run it, but a faster way to do it is to run this:
+# Installation
 
-**For me it doesn't work when I curl it for some reason, so you may have to download and run it if you expierience problems.**
-```bash
-curl "https://raw.githubusercontent.com/GGORG0/higure-wtf-setup/master/setup.sh" | bash
-```
-**Reminder:** Always check scripts' contents before just piping them into bash!
-### Config
-When running the script, it will generate a `config` file in the current directory. Fill it out and press enter. 
+> First, When we get a server make sure to run update packages. "sudo apt update"
+
+> Secondly, You then do upgrade packages. "sudo apt upgrade"
+
+> Now you can sign up or login to your cloudflare account and setup this guide [here](https://setup.elixr.host/cloudflare-setup/untitled) firstly.
+
+> You can either download the files manually or git. (I will recommend git for faster installing the files to your server.)
+
+> If you get the error when installing git, Make sure it's installed by running the command. "sudo apt install git"
+
+> Then do - "git clone https://raw.githubusercontent.com/CourtesyDev/Astral.Cool-Setup-Script/master/setup.sh"
+
+> Once you got the setup script in the directory you want it at and then we can move to the bash running the setup script.
+
+> Final step, Just do "bash setup.sh" and it run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
