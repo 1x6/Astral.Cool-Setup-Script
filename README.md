@@ -24,4 +24,4 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 > DigitalOcean - [Free 100$ Credit](https://try.digitalocean.com/do-vs-vultr/?utm_campaign=amer_conquesting_kw_en_cpc&utm_adgroup=vultr&_keyword=vultr&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google)
 
-> Linode - [Free 100$ Credit](https://www.linode.com/lp/linode-vs-vultr/?utm_source=google&utm_medium=cpc&utm_campaign=12492722312_119323564216&utm_term=g_kwd-307580604225_e_vultr&utm_content=504114856773&locationid=9007290&device=c_c)
+> Linode - [Free 100$ Credit](https://www.linode.com/lp/linode-vs-vultr/?utm_source=google&utm_medium=cpc&utm_campaign=12492722312_119323564216&utm_term=g_kwd-307580604225_e_vultr&utm_content=504114856773&locationid=9007290&device=c_c) [Another free 100$ Credit](https://www.linode.com/lp/youtube-viewers/?ifso=networkchuck)
