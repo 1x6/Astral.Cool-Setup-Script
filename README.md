@@ -2,7 +2,7 @@
 
 A simple Astral.Cool setup script for your skid image hosting.
 
-# Installation
+## Installation
 
 - First, When we get a server
 
@@ -18,7 +18,7 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 - Final step, Just do `bash setup.sh` to run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
 
-# Free VPS Hosting
+## Free VPS Hosting
 
 > Vultr - [Free 100$ Credit](https://www.vultr.com/promo/try100/), [Free 50$ Credit](https://www.vultr.com/promo/try50/?service=try50&obility_id=42460259882)
 
