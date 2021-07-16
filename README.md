@@ -10,13 +10,13 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 > You can either download the files manually or git. (I will recommend git for faster installing the files to your server.)
 
-> If you get the error when installing git, Make sure it's installed by running the command. "sudo apt install git"
+> If you get the error when installing git, Make sure it's installed by running the command. `sudo apt install git`
 
-> Then do - "git clone https://github.com/CourtesyDev/Astral.Cool-Setup-Script.git"
+> Then do - `git clone https://github.com/CourtesyDev/Astral.Cool-Setup-Script.git`
 
 > Once you got the setup script in the directory you want it at and then we can move to the bash running the setup script.
 
-> Final step, Just do "bash setup.sh" and it run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
+> Final step, Just do `bash setup.sh` and it run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
 
 # Free VPS Hosting
 
