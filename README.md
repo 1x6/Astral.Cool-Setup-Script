@@ -4,19 +4,21 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 ## Installation
 
-> First, When we get a server
+> First, When we get a new server you always want to update your packages using this command. ```sudo apt update```
+
+> Then, When you finish updating your packages. We then upgrade using this command. ```sudo apt upgrade```
 
 > Now you can sign up or login to your cloudflare account and setup this guide [here](https://setup.elixr.host/cloudflare-setup/untitled) firstly.
 
 > You can either download the files manually or git clone them. (I recommend git for faster downloading of the files to your server.)
 
-> If you get the error when running git, make sure it's installed by running the command: `sudo apt install git`
+> If you get the error when running git, make sure it's installed by running the command: ```sudo apt install git```
 
-> Then do - `git clone https://github.com/CourtesyDev/Astral.Cool-Setup-Script.git`
+> Then do - ```git clone https://github.com/CourtesyDev/Astral.Cool-Setup-Script.git```
 
 > Once you have got the setup script in the directory you want it at and then we can move to the bash running the setup script.
 
-> Final step, Just do `bash setup.sh` to run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
+> Final step, Just do ```bash setup.sh``` to run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
 
 ## Free VPS Hosting
 
