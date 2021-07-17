@@ -21,10 +21,6 @@ genstr8() {
   done
 }
 
-# Updates
-sudo apt update
-sudo apt upgrade -y
-
 # Node.js
 curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
@@ -54,8 +50,8 @@ sudo ufw allow 80
 sudo ufw allow 443
 
 # Root directory
-mkdir sharex
-cd sharex
+mkdir astralskid
+cd astralskid
 
 # Start script
 echo 'pm2 stop all
