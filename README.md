@@ -18,7 +18,7 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 > Once you have got the setup script in the directory you want it at and then we can move to the bash running the setup script.
 
-> Final step, Just do ```bash setup.sh``` to run it. (NOTE: If this tutorial helped your brain cells even more, Please star it.)
+> Final step, Just do ```bash setup.sh``` to run it. ```(NOTE: If this tutorial helped your brain cells even more, Please star it.)```
 
 ## Free VPS Hosting
 
