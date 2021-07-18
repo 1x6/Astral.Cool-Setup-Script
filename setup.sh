@@ -70,10 +70,10 @@ pm2 list' > start.sh
 chmod +x start.sh
 
 # Git clones
-git clone https://github.com/Higure-wtf/Backend backend
-git clone https://github.com/Higure-wtf/Bot bot
-git clone https://github.com/Higure-wtf/Proxy cdn
-git clone https://github.com/Higure-wtf/Frontend frontend
+git clone https://github.com/CourtesyDev/Backend
+git clone https://github.com/CourtesyDev/Bot
+git clone https://github.com/CourtesyDev/Proxy
+git clone https://github.com/CourtesyDev/Frontend
 
 echo -e "\e[1;32mPlease follow this tutorial to setup Cloudflare. https://setup.elixr.host/cloudflare-setup/untitled When you're done, press enter.\e[0m"
 read
