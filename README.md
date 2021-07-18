@@ -33,3 +33,11 @@ A simple Astral.Cool setup script for your skid image hosting.
 ![](https://cdn.discordapp.com/attachments/862451398317441065/866457036913246218/image0.png)
 ![](https://cdn.discordapp.com/attachments/862451398317441065/866457044013023272/image0.png)
 ![](https://sfo3.digitaloceanspaces.com/space.elixr.host/3edb330c-20c8-48ef-9bb0-11924dbc9e70/3742c3a.png)
+
+# Credits
+
+> blxm#1337 & NahSahh#1337 - For the setup guide.
+
+> GGORG - For the setup script.
+
+> CourtesyDev - For fixing a few bugs and wording mistakes / bad readme.md. & And also saving the setup.elixr.host on wayback machine.
