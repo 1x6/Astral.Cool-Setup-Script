@@ -8,7 +8,7 @@ A simple Astral.Cool setup script for your skid image hosting.
 
 > Then, When you finish updating your packages. We then upgrade using this command. ```sudo apt upgrade```
 
-> Now you can sign up or login to your cloudflare account and setup this guide [here](https://setup.elixr.host/cloudflare-setup/untitled) firstly.
+> Now you can sign up or login to your cloudflare account and setup this guide [here](https://web.archive.org/web/20210710033022/https://setup.elixr.host/cloudflare-setup/untitled) firstly.
 
 > You can either download the files manually or git clone them. (I recommend git for faster downloading of the files to your server.)
 
