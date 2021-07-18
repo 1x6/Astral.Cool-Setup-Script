@@ -27,3 +27,9 @@ A simple Astral.Cool setup script for your skid image hosting.
 > DigitalOcean - [Free 100$ Credit](https://try.digitalocean.com/do-vs-vultr/?utm_campaign=amer_conquesting_kw_en_cpc&utm_adgroup=vultr&_keyword=vultr&_device=c&_adposition=&utm_content=conversion&utm_medium=cpc&utm_source=google)
 
 > Linode - [Free 100$ Credit](https://www.linode.com/lp/linode-vs-vultr/?utm_source=google&utm_medium=cpc&utm_campaign=12492722312_119323564216&utm_term=g_kwd-307580604225_e_vultr&utm_content=504114856773&locationid=9007290&device=c_c) 
+
+# Why is setup.elixr.host down?
+
+![](https://cdn.discordapp.com/attachments/862451398317441065/866457036913246218/image0.png)
+![](https://cdn.discordapp.com/attachments/862451398317441065/866457044013023272/image0.png)
+![](https://sfo3.digitaloceanspaces.com/space.elixr.host/3edb330c-20c8-48ef-9bb0-11924dbc9e70/3742c3a.png)
