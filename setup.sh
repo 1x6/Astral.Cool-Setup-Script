@@ -104,15 +104,15 @@ echo -e "\e[1;32mPlease put in all the values in the 'config' file and press ent
 read
 source config
 echo -e "\e[1;32mNow you can delete the config file\e[0m"
-cd sharex
+cd ../frontend
 
-IP="$(ip a show eth0 | grep "inet " | awk '{print $2}' | sed --expression='s/\/24//g')"
+IP="34.132.172.89" # ahhhhhhhhhhhhhhhhhhh
 
 # Replacing the domain
 find . -type f -exec sed -i "s/[Hh]igure\.wtf/$DOMAIN/g" {} \;
 
 # Frontend
-cd frontend
+cd ../frontend
 
 echo "BACKEND_URL=https://api.$DOMAIN
 " > .env
@@ -230,12 +230,13 @@ echo "go run main.go" > start.sh
 chmod +x start.sh
 
 # MinIO
-cd ../..
+cd ..
+cd ..
 wget https://dl.min.io/server/minio/release/linux-amd64/minio
 chmod +x minio
 echo "MINIO_ROOT_USER=$S3_ACCESS_KEY_ID MINIO_ROOT_PASSWORD=$S3_SECRET_KEY ./minio server /mnt/data" > minio.sh
 chmod +x minio.sh
-pm2 start minio.sh --name "s3"
+pm2 start minio.sh --name "s3" -f
 wget https://dl.min.io/client/mc/release/linux-amd64/mc
 chmod +x mc
 ./mc alias set myminio/ http://127.0.0.1:9000 $S3_ACCESS_KEY_ID $S3_SECRET_KEY
@@ -245,7 +246,7 @@ chmod +x mc
 
 
 # Bot
-cd sharex/bot
+cd astralskid/bot
 
 echo "BOT_TOKEN=$DISCORD_BOT_TOKEN
 API_KEY=$API_KEY
@@ -359,9 +360,10 @@ sudo nginx -t
 
 echo -e "\e[1;32mPlease go to Cloudflare and disable proxy for every DNS record. When you're done, press enter.\e[0m"
 read
-echo "$CLOUDFLARE_EMAIL
-Y
-N
+#echo "$CLOUDFLARE_EMAIL
+#Y
+#N
+echo "1,2,3,4
 
 " | sudo certbot --nginx
 sudo nginx -t
@@ -400,6 +402,7 @@ sed -i "s/app\.use\(
   \);/g" app.ts
 
 # Done!
-cd ../..
+cd ../
+cd ../
 ./start.sh
 echo -e "\e[1;32mDONE!! Login at https://$DOMAIN/ with the username '$ADMIN_USER_NAME' and password 'adminpassword123'. Link your discord and change the password. Done!\e[0m"
