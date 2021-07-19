@@ -53,6 +53,8 @@ sudo ufw allow 443
 mkdir astralskid
 cd astralskid
 
+echo 'in astralskid dir which is inside og script dir'
+
 # Start script
 echo 'pm2 stop all
 pm2 delete all
@@ -79,7 +81,11 @@ echo -e "\e[1;32mPlease follow this tutorial to setup Cloudflare. https://setup.
 read
 
 # Config
-cd ..
+#cd ..
+
+#echo 'just went up a dir with ..'
+#ls
+
 echo "# Cloudflare
 DOMAIN=
 CLOUDFLARE_API_KEY=
@@ -104,12 +110,12 @@ echo -e "\e[1;32mPlease put in all the values in the 'config' file and press ent
 read
 source config
 echo -e "\e[1;32mNow you can delete the config file\e[0m"
-cd ../frontend
+#cd ../frontend
 
-IP="34.132.172.89" # ahhhhhhhhhhhhhhhhhhh
+#IP="34.132.172.89" # ahhhhhhhhhhhhhhhhhhh
 
 # Replacing the domain
-find . -type f -exec sed -i "s/[Hh]igure\.wtf/$DOMAIN/g" {} \;
+#find . -type f -exec sed -i "s/[Hh]igure\.wtf/$DOMAIN/g" {} \;
 
 # Frontend
 cd ../frontend
